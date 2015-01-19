@@ -12,4 +12,5 @@ def xor_strings(a, b, hex=False):
 
 def get_random(size=16):
     """Get random bits with specified size"""
-    return open("/dev/urandom").read(size)
+    with open("/dev/urandom") as f:
+        return f.read(size)
