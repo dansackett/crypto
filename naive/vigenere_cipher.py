@@ -25,7 +25,7 @@ secure of the group.
 """
 from itertools import cycle
 
-ALPHA = 'abcdefghijklmnopqrstuvwxyz'
+ALPHA = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 
 def encrypt(key, plaintext):
